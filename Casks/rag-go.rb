@@ -19,4 +19,11 @@ cask "rag-go" do
   binary "ragctl"
   binary "ragprep"
   binary "rageval"
+
+  caveats <<~EOS
+    For these CLI binaries, use the precompiled Formula:
+      brew uninstall --cask ownera1/tap/rag-go
+      brew install --formula ownera1/tap/rag-go
+    The Cask's quarantine may prevent these ad-hoc-signed binaries from running.
+  EOS
 end
