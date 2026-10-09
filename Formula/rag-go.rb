@@ -1,23 +1,23 @@
 class RagGo < Formula
   desc "Workspace local retrieval engine with stdio MCP"
   homepage "https://github.com/Ownera1/rag-go"
-  version "0.6.1"
+  version "0.6.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/Ownera1/rag-go/releases/download/v0.6.1/rag-go_v0.6.1_darwin_arm64.tar.gz?package=formula"
-      sha256 "8b3d9a4529ca9b29b3e01dca141a9af233aa9cede8aa2fc22b3ae6e97aac7907"
+      url "https://github.com/Ownera1/rag-go/releases/download/v0.6.2/rag-go_v0.6.2_darwin_arm64.tar.gz?package=formula"
+      sha256 "e0ffbb2497f491b27279f50d7bccf42eea98bb4c96fabb3a6191e74f1dd55333"
     end
   end
   on_linux do
     on_arm do
-      url "https://github.com/Ownera1/rag-go/releases/download/v0.6.1/rag-go_v0.6.1_linux_arm64.tar.gz?package=formula"
-      sha256 "987b528b0a8b3a1189d9d8437eb5eed45fdeb6c62464c1897c8af773bb6286d1"
+      url "https://github.com/Ownera1/rag-go/releases/download/v0.6.2/rag-go_v0.6.2_linux_arm64.tar.gz?package=formula"
+      sha256 "e98d0d36f2366ea012e847edfa3f7d70284a45a263c5ce166c09b7e971c26c75"
     end
     on_intel do
-      url "https://github.com/Ownera1/rag-go/releases/download/v0.6.1/rag-go_v0.6.1_linux_amd64.tar.gz?package=formula"
-      sha256 "89314dea272fc78703f361712cebba3234b3d1c1eee59780b870d4ec40aae4fc"
+      url "https://github.com/Ownera1/rag-go/releases/download/v0.6.2/rag-go_v0.6.2_linux_amd64.tar.gz?package=formula"
+      sha256 "792f9d96d94f5b2696161c647d8df3820b82f9cb237844d11ce7ffe44610c1ca"
     end
   end
 
