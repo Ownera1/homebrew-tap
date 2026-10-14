@@ -1,8 +1,8 @@
 class Baton < Formula
   desc "Dispatch tasks from a main agent to sub-agents (codex, claude, grok, agy, pi)"
   homepage "https://github.com/Ownera1/baton"
-  url "https://github.com/Ownera1/baton/archive/refs/tags/v0.8.0.tar.gz"
-  sha256 "74a839db79d675a002840022028ed57954484e14a47c94d0972c2b77c4fc22b9"
+  url "https://github.com/Ownera1/baton/archive/refs/tags/v0.9.0.tar.gz"
+  sha256 "2e84bee48af56bf0ff02539869aacd69ffd14064cc3a84456133bafc05d3590b"
   license "MIT"
   head "https://github.com/Ownera1/baton.git", branch: "main"
 
